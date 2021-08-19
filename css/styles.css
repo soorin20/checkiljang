@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+
+
+/*components*/
+@import"components/screen-header.css";
+
+
+
+/*screens*/
+@import "screens/login.css";
+
+
+
+.main-screen{
+    padding: 0px var(--horizontal-sapce);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(16%, 16%, 16%);
+    background-color: white;
+}
