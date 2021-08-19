@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Kokoa Talk </title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="status-bar">
+    <div class="status-bar_column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i><!--To Do: Wifi Icon-->
+    </div> 
+    <div class="status-bar_column">
+        <span>18:43</span>
+    </div>
+    <div class="status-bar_column">
+        <span>23%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i><!--Battery Icon-->
+        <i class="fas fa-bolt"></i><!--Lightning Icon-->
+    </div>
+  </div>
+
+  <header class="welcome-header">
+      <h1 class="welcome-header_title">책일장에 오신것을 환영합니다</h1>
+      <p class="welcome-header_text">책일장 계정이 있으시다면 입력해주세요</p>
+  </header>
+  <form action="pick.html" method="get" id="login-form">
+      <input name="username" type="text" required placeholder="Email or phone number"/>
+      <input name="password" type="password" required placeholder="Password"/>
+      <input type="submit" value="Log in"/>
+      <div class='connect-login-btns big-btns'>
+            <a herf="#">
+                <div class='connect-login-btn big-btn'>
+                    <i class="fas fa-comment"></i>
+                    <span>Log in with Kakaotalk</span>
+                </div>
+            </a>
+            <a herf="#">
+                <div class='connect-login-btn big-btn'>
+                    <i class="fas fa-comment"></i>
+                    <span>Log in with Naver</span>
+                </div>
+            </a>
+            <a herf="#">
+                <div class='connect-login-btn big-btn'>
+                    <i class="fas fa-comment"></i>
+                    <span>Log in with google</span>
+                </div>
+            </a>
+      </div>
+
+      <a herf="#">Find Kakao Account or Password</a>
+  </form>
+
+ 
+  <!--<div id='no-mobile'>
+      <span>your screen is too big ㅜㅜ</span>
+  </div>-->
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>

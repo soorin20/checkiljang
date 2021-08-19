@@ -53,6 +53,17 @@
     color:inherit;
     font-size:15px;
 }
+.connect-login-btns{
+    margin-top: 15px;
+    margin-bottom:10px;
+}
+.connect-login-btn{
+    background-color: var(--mint);
+    color:white;
+}
+.connect-login-btn i{
+    margin-right: 5px;
+}
 
 
 

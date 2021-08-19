@@ -1,0 +1,8 @@
+.big-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:  7px;
+    border-radius: 7px;
+    height: 40px; 
+}
