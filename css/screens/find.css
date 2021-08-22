@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+
+.main-center-box{
+    display:flex;
+    justify-content: space-around;
+}
+
+.sm-post-boxes{
+    display: flex;
+    height:200vh ;
+    width: 700px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 0; /* remove inline-block extra space */
+    padding-left: 0; /* remove list padding */
+    flex-wrap: wrap;
+}
+
+
+.sm-post-box{
+    width: 250px;
+    height:400px;
+    display: inline-block;
+    font-size: 14px;
+    border-bottom: var(--main-border);
+    border-top: var(--main-border);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    position: relative;
+    justify-content: flex-start;
+    margin: 20px 20px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.sm-post-user{
+    display: flex;
+    height: 10%;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+.sm-post-user img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.sm-post-user span{
+    font-size: 14px;
+    position: absolute;
+    left:42px;
+    top:10px
+
+}
+.sm-post-bookimg{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.sm-post-bookword{
+    height:30%;
+    padding: 10px 15px;
+}
+.sm-post-bookword p{
+    line-height:140%;
+    font-family: 'Gowun Batang', serif;
+    font-weight: 600;
+}
+.sm-post-booktags{
+    height: 10%;
+    display: flex;
+}
+.sm-post-booktag{
+    margin-right: 5px;
+    padding:10px 10px 3px 5px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 15px;
+
+}
+

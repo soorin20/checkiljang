@@ -1,24 +1,20 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
-@font-face {
-    font-family: 'Eulyoo1945-SemiBold';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
 @import "reset.css";
 @import "variables.css";
 
 
-
 /*components*/
-@import"components/screen-header.css";
 @import"components/status_bar.css";
 @import"components/btn.css";
-
+@import"components/header.css";
+@import"components/main.css";
 
 /*screens*/
 @import "screens/login.css";
+@import "screens/find.css";
 
 
 
@@ -26,7 +22,7 @@
     padding: 0px var(--horizontal-sapce);
 }
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'IBM Plex Sans KR', sans-serif;
     color: rgb(16%, 16%, 16%);
     background-color: white;
 }

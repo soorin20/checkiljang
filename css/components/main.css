@@ -1,0 +1,63 @@
+main{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main-center-box{
+    width: 700px;
+}
+.main-side-box{
+    width:190px;
+}
+
+
+.main-right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height:200px ;
+    margin-top: 20px;
+
+}
+.nav_btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.nav_btn:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.map_btn img, .market_btn img{
+    width:30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.my-page_btn img {
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    margin-left: 5px;
+    margin-right:15px;
+}
+
+.my-page_btn{
+    background-color:rgb(96%, 94%, 87%);
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.map_btn,.market_btn {
+    margin-bottom: 5px;
+    background-color:rgb(85%, 89%, 83%);
+    padding:5px 3px;
+}
