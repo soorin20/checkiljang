@@ -13,21 +13,22 @@ header{
 .header-side-box{
     width:190px;
 }
-
-.header-center-box img{
+.header-center-box a{
     width: 30%;
+}
+.header-center-box a img{
+    width: 100%;
 }
 
 
 .search-form{
     display:flex;
-    flex-direction:column;
     margin: 0px 10px;
     text-align: center;
     width:70%;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     position:relative;
     
 }

@@ -3,15 +3,17 @@
 
 .main-center-box{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: flex-start;
+
 }
 
 .sm-post-boxes{
     display: flex;
-    height:200vh ;
+    height:1350px ;
     width: 700px;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content:space-evenly;
+    align-items: flex-start;
     margin: 0 auto;
     font-size: 0; /* remove inline-block extra space */
     padding-left: 0; /* remove list padding */
@@ -24,8 +26,8 @@
     height:400px;
     display: inline-block;
     font-size: 14px;
-    border-bottom: var(--main-border);
-    border-top: var(--main-border);
+    border-bottom: 1px solid rgb(53%, 37%, 35%);
+    border-top: 1px solid rgb(53%, 37%, 35%);
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -35,6 +37,11 @@
     list-style-type: none;
     box-sizing: border-box;
 }
+
+.sm-post-box:hover{
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+
 
 .sm-post-user{
     display: flex;
@@ -62,20 +69,22 @@
 }
 .sm-post-bookword{
     height:30%;
-    padding: 10px 15px;
+    padding: 20px;
 }
 .sm-post-bookword p{
-    line-height:140%;
+    line-height:170%;
     font-family: 'Gowun Batang', serif;
     font-weight: 600;
+    
 }
 .sm-post-booktags{
     height: 10%;
     display: flex;
+    margin-bottom: 5px;
 }
 .sm-post-booktag{
     margin-right: 5px;
-    padding:10px 10px 3px 5px;
+    padding:8px 10px 8px 10px;
     background-color: rgba(0,0,0,0.2);
     border-radius: 15px;
 
