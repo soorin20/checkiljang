@@ -35,7 +35,7 @@ main{
 }
 
 
-.map_btn img, .market_btn img{
+.else_btn img{
     width:30px;
     height: 30px;
     margin-left: 10px;
@@ -56,7 +56,7 @@ main{
     height: 50px;
 }
 
-.map_btn,.market_btn {
+.else_btn {
     margin-bottom: 5px;
     background-color:rgb(85%, 89%, 83%);
     padding:5px 3px;

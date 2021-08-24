@@ -11,11 +11,13 @@
 @import"components/btn.css";
 @import"components/header.css";
 @import"components/main.css";
+@import"components/badge.css";
 
 /*screens*/
 @import "screens/login.css";
 @import "screens/find.css";
 @import "screens/post.css";
+@import "screens/find-ir.css";
 
 
 

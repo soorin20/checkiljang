@@ -1,0 +1,9 @@
+.find-ir-info{
+    display: flex;
+    flex-direction: column;
+}
+.find-ir-info div:last-child {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
