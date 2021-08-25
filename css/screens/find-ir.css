@@ -1,9 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+
+
+.find-ir-center-box{
+    flex-direction: column;
+}
+
 .find-ir-info{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
-.find-ir-info div:last-child {
+
+.find-ir-info-full{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+.find-ir-info-othercompany{
     display: flex;
     justify-content: flex-end;
-    margin-right: 5px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.find-ir-info-othercompany i{
+    margin-left: 5px;
+}
+.find-ir-info-imgbox{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.find-ir-info-imgbox img{
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgb(42%, 23%, 53%);
+}
+.find-ir-info-wordbox{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ir-info-word{
+    font-family: 'Gowun Batang', serif;
+    font-weight: 600;
+}
+.ir-info-word-title{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 36px;
+}
+.ir-info-word-author{
+    margin-bottom:15px;
+    font-size: 28px;
+}
+.ir-info-word-else{
+    margin-bottom: 10px
 }
