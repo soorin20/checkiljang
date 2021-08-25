@@ -37,7 +37,7 @@
 .find-ir-info-imgbox img{
     width: 80%;
     border-radius: 20px;
-    box-shadow: 0px 0px 15px rgb(42%, 23%, 53%);
+    box-shadow: 0px 0px 15px rgb(5%, 1%, 5%);
 }
 .find-ir-info-wordbox{
     width: 55%;
@@ -60,4 +60,30 @@
 }
 .ir-info-word-else{
     margin-bottom: 10px
+}
+
+.find-ir-info-wordbox a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ir-info-write-btn{
+    width:90%;
+    padding-top:15px;
+    padding-bottom: 15px;
+    background-color: var(--mint);
+    text-align: center;
+    margin-top: 155px;
+    border-radius: 20px;
+    color:white;
+}
+.ir-info-write-btn i{
+    margin-right: 5px;
+}
+.ir-info-write-btn span{
+    font-size: 18px;
+}
+
+.ir-info-write-btn:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
