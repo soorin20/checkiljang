@@ -68,6 +68,9 @@
     justify-content: center;
     height: 50%;
 }
+.sm-post-bookimg img{
+    border-radius: 10px;
+}
 .sm-post-bookword{
     height:30%;
     padding: 20px;
